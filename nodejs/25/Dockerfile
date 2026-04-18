@@ -1,4 +1,4 @@
-FROM        --platform=$TARGETOS/$TARGETARCH node:25-bookworm-slim
+FROM        --platform=$TARGETOS/$TARGETARCH node:25.9-bookworm
 
 LABEL       author="Kieran Saul" maintainer="dev@kieransaul.co.uk"
 
